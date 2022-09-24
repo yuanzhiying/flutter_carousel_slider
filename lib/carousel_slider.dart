@@ -258,8 +258,8 @@ class CarouselSliderState extends State<CarouselSlider>
 
   @override
   void dispose() {
-    super.dispose();
     clearTimer();
+    super.dispose();
   }
 
   @override
